@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ded7c3;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 1em;
+    color: #000;
+    text-decoration: none;
+}
+main {
+    padding: 2em;
+}
+article {
+    margin-bottom: 2em;
+}
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+form input, form button {
+    display: inline-block;
+    margin: 0.5em 0.2em;
+}
+footer {
+    text-align: center;
+    background: #ded7c3;
+    padding: 1em;
+    margin-top: 2em;
+}

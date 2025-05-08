@@ -1,46 +1,59 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f3f1eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f5ef;
     color: #333;
     margin: 0;
     padding: 0;
 }
+
 header {
-    background-color: #ded7cc;
-    padding: 20px;
+    background-color: #ddd4c3;
+    padding: 1rem 2rem;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #2a2a2a;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
 nav a {
-    margin: 0 10px;
+    margin: 0 1rem;
     text-decoration: none;
-    color: #333;
+    color: #444;
+    font-weight: bold;
 }
+
+nav a:hover {
+    color: #000;
+}
+
 main {
-    padding: 20px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-.products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+
+section {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
-.product img {
-    width: 100%;
-    max-width: 200px;
-}
-.form {
-    margin-top: 40px;
-}
-form input, form button {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    width: 100%;
-    max-width: 400px;
-}
+
 footer {
-    background-color: #ded7cc;
+    background-color: #ddd4c3;
     text-align: center;
-    padding: 10px;
-    font-size: 14px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 2rem;
 }

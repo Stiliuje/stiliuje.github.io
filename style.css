@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f1eb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ded7cc;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+main {
+    padding: 20px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.product img {
+    width: 100%;
+    max-width: 200px;
+}
+.form {
+    margin-top: 40px;
+}
+form input, form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+footer {
+    background-color: #ded7cc;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
